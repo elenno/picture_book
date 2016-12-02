@@ -1,0 +1,15 @@
+var StatusCode = {
+    UNKNOWN_ERROR: -1,
+
+    LOGIN_SUCCESS: 10000,
+    USR_OR_PWD_ERROR: 10001,
+    ACCESS_TOKEN_EXPIRE: 10002,
+
+    REGISTER_SUCCESS: 10010,
+    USER_ALREADY_EXIST: 10011,
+
+    GET_UPTOKEN_SUCCESS: 10020,
+
+};
+
+module.exports = StatusCode;
